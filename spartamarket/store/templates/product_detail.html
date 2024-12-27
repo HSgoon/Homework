@@ -1,0 +1,13 @@
+<html lang='ko'>
+<head>
+    <meta charset='UTF-8'>
+    <title>{{product.name}}</title>
+</head>
+<body>
+    <h1>{{product.name}}</h1>
+    <img src="{{product.image.url}}" alt="{{product.name}}"
+    <p>{{product.description}}</p>
+    <p>가격: {{product.price}} 원</p>
+    <a href='{% url 'product_list' %}'돌아가기</a>
+</body>
+</html>
